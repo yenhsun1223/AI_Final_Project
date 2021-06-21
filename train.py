@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-#
-# Author:   Pengxiang Yan
-# Email:    yanpx (at) mail2.sysu.edu.cn
-
 from __future__ import absolute_import, division, print_function
 import os
 
