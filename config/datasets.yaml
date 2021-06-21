@@ -1,0 +1,42 @@
+DAVIS2016:
+    image_dir: JPEGImages/480p
+    label_dir: Annotations/480p
+    image_ext: .jpg
+    label_ext: .png
+    default_label_interval: 1 
+    video_split:
+        train: ['bear', 'bmx-bumps', 'boat', 'breakdance-flare',
+                    'bus', 'car-turn', 'dance-jump', 'dog-agility',
+                    'drift-turn', 'elephant', 'flamingo', 'hike',
+                    'hockey', 'horsejump-low', 'kite-walk', 'lucia',
+                    'mallard-fly', 'motocross-bumps', 'motorbike',
+                    'paragliding', 'rhino', 'rollerblade', 'scooter-gray',
+                    'soccerball', 'stroller', 'surf', 'swing', 'tennis',
+                    'train']
+        val: ['blackswan', 'bmx-trees', 'breakdance', 'camel',
+                    'car-roundabout', 'car-shadow', 'cows', 'dance-twirl',
+                    'dog', 'drift-chicane', 'drift-straight', 'goat',
+                    'horsejump-high', 'kite-surf', 'libby', 'motocross-jump',
+                    'paragliding-launch', 'parkour', 'scooter-black',
+                    'soapbox']
+
+mydataset:
+    image_dir: JPEGImages
+    label_dir: Annotations
+    image_ext: .jpg
+    label_ext: .png
+    default_label_interval: 1
+    video_split:
+        train: ['mydataset']
+        test: ['mydataset']
+        val: ['mydataset']
+
+mydataset_test:
+    image_dir: JPEGImages
+    label_dir: Annotations
+    image_ext: .jpg
+    label_ext: .png
+    default_label_interval: 1
+    video_split:
+        test: ['mydataset']
+
